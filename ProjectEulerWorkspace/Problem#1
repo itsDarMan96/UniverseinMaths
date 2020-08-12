@@ -35,7 +35,7 @@ int main(){
         sum_three= (n-1)/3;
         sum_five = (n-1)/5 ;
         sum_fifteen =(n-1)/15 ;
-        sum=(3*sum_three*(sum_three+1) + 5*sum_five*(sum_five+1) - 15*sum_fifteen*(sum_fifteen+1))>>1;
+        sum=(3*sum_three*(sum_three+1) + 5*sum_five*(sum_five+1) - 15*sum_fifteen*(sum_fifteen+1))>>1; //use of bitwise
         cout << sum <<endl;
     }
     return 0;
